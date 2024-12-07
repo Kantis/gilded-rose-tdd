@@ -2,7 +2,6 @@
 
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 jooq = { id = "nu.studer.jooq", version.ref = "jooq" }
-flyway = { id = "org.flywaydb.flyway", version.ref = "flyway" }
 versions = { id = "com.github.ben-manes.versions", version = "0.51.0" }
 taskinfo = { id = "org.barfuin.gradle.taskinfo", version = "2.2.0" }
 
@@ -10,7 +9,7 @@ taskinfo = { id = "org.barfuin.gradle.taskinfo", version = "2.2.0" }
 
 kotlin = "2.0.21"
 jooq = "9.0"
-flyway = "9.22.3"
+flyway = "10.17.2"
 junit = "5.11.3"
 jackson = "2.18.1"
 postgresql = "42.7.4"
@@ -47,6 +46,9 @@ jackson-datatype-jsr310 = { module = "com.fasterxml.jackson.datatype:jackson-dat
 
 postgresql = { module = "org.postgresql:postgresql", version.ref = "postgresql" }
 hikaricp = { module = "com.zaxxer:HikariCP", version.ref = "hikaricp" }
+
+flyway-core = { module = "org.flywaydb:flyway-core", version.ref = "flyway" }
+flyway-postgresql = { module = "org.flywaydb:flyway-database-postgresql", version.ref = "flyway" }
 
 jooq = { module = "org.jooq:jooq", version.ref = "jooq-core" }
 kotlinx-html = { module = "org.jetbrains.kotlinx:kotlinx-html-jvm", version.ref = "kotlinx-html" }
